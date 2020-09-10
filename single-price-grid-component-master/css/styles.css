@@ -1,0 +1,129 @@
+/* Title Section */
+#Proj {
+  padding: 20% 15% 20% 20%;
+  display: flex;
+}
+
+body {
+  font-family: Karla;
+}
+
+h2 {
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+h3 {
+  padding-bottom: 2%;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+/* top card */
+.top {
+  /* padding: 3% 15% 0 7%; */
+}
+
+.top-card {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.guarantee {
+  color: #ffc93c;
+  font-weight: 400;
+}
+
+.join {
+  color: #2AB2AF;
+  font-weight: 700;
+}
+
+/* left card */
+@media (min-width: 992px) {
+  .column-left {
+    padding: 1rem;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.group {
+  display: block;
+}
+
+.left-card {
+  padding-bottom: 50px;
+  color: #fff;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.sub {
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.sub-price {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-left: 5%;
+}
+
+.text-small {
+  font-weight: 400;
+  color: #a2d5f2;
+  font-size: 14px;
+}
+
+.sub-bottom-text {
+  padding-left: 6%;
+}
+
+/* Right card */
+@media (min-width: 992px) {
+  .column-right {
+    padding: 1rem;
+    padding-left: 0;
+    padding-top: 0;
+  }
+}
+
+.right-card {
+  /* padding: 0 15% 14% 7%; */
+  /* padding: 1rem; */
+  /* padding-left: 0; */
+  color: #fff;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.us {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 3%;
+}
+
+.paragraph {
+  padding-left: 10%;
+}
+
+/* Card Colors */
+.card-1 {
+  background-color: #fff;
+}
+
+.card-2 {
+  background-color: #3e978b;
+}
+
+.card-3 {
+  background-color: #2ec1ac;
+}
+
+/* Footer */
+.attribution {
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
